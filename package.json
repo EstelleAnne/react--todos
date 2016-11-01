@@ -1,0 +1,43 @@
+{
+  "name": "generator-talentUi",
+  "author": {
+    "name": "liuhuijuan",
+    "email": "liuhuijuan@beisen.com"
+  },
+  "version": "0.4.0",
+  "description": "",
+  "main": "index.js",
+  "configFile": "",
+  "configUser": "",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack/webpack.config.js",
+    "build": "webpack --config ./webpack/webpack.config.js",
+    "build-prod": "webpack --config ./webpack/webpack.prod.config.js",
+    "build-hotfix": "webpack --config ./webpack/webpack.hotfix.config.js",
+    "test": "karma start"
+  },
+  "license": "ISC",
+  "keywords": [
+    "babel",
+    "hot",
+    "react",
+    "reactjs",
+    "hmr",
+    "webpack",
+    "react-router",
+    "react-transform",
+    "redux"
+  ],
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.2.2",
+    "eslint-plugin-react": "^6.0.0"
+  },
+  "dependencies": {
+    "@beisen/talent-core": "0.5.6-11",
+    "grunt": "^1.0.1"
+  },
+  "engines": {
+    "node": "5.9.0"
+  }
+}

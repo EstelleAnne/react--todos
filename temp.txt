@@ -1,0 +1,12 @@
+
+  ✘  http://eslint.org/docs/rules/  Parsing error: Unexpected token  
+  C:\Users\张宝丹\Desktop\generator-talentUI\src\containers\Demo\index.js:137:19
+      console.log(''123123123123',this.filter);
+                     ^
+
+
+✘ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/null
